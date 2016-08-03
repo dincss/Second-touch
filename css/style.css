@@ -608,6 +608,10 @@ transform: scaleX(-1);
 }
 .grass img:hover {
 	filter: contrast(185%); 
+	-moz-transform:rotateY(360deg);
+    -moz-transition-duration:1000ms;
+    -moz-transition-timing-function: ease-out;
+    cursor: pointer;
 }
 .grass h3 {
 	color: #fff;
